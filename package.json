@@ -1,0 +1,14 @@
+{
+	"name": "nuxt-rich-results",
+	"license": "MIT",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "nuxt",
+		"generate": "nuxt generate",
+		"start": "nuxt start"
+	},
+	"dependencies": {
+		"@nuxtjs/axios": "^5.13.6",
+		"nuxt": "^2.15.6"
+	}
+}
