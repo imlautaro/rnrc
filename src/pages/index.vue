@@ -29,7 +29,7 @@ export default {
 	methods: {
 		run() {
 			this.$axios
-				.$get('/api/images/search', {
+				.$get('https://api.thecatapi.com/v1/images/search', {
 					headers: { 'x-api-key': this.$config.API_KEY },
 				})
 				.then((res) => {
